@@ -25,6 +25,7 @@ export default function App() {
 console.log("load");
   // Search Open Library API
   const handleSearch = async (e) => {
+    console.log("load1");
     e.preventDefault();
     if (!query.trim()) return;
     setLoading(true);
