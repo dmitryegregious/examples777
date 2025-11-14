@@ -22,7 +22,7 @@ export default function App() {
   useEffect(() => {
     fetchSavedBooks();
   }, []);
-
+console.log("load");
   // Search Open Library API
   const handleSearch = async (e) => {
     e.preventDefault();
